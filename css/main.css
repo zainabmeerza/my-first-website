@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+nav {
+    background-color:black;
+}
+
+.SearchBar input{
+    width: 1115px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+.SearchButton input{
+    width: 200px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+.SearchBar {
+    background-color:black;
+    
+}
+
+.links ul{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.links li{
+
+    justify-content: stretch;
+    display: inline;
+    
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: rgb(153, 150, 150);
+}
+
+header{
+    height: 600px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header h1{
+    color: rgb(235, 235, 235);
+    padding-bottom: 90px;
+}
+
+header img { 
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    position: static;
+  }
+  
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: white;
+}
+
+main{
+    background-color:white;
+    height: 400px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 50%;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.side h2{
+    padding-left: 55px;
+}
+
+
+.main{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+    display: inline-flex;
+   
+}
+
+.specialText{
+    font-weight: bolder;
+}
+
+
+.main p{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom:90px;
+    padding-top: 60px;
+    text-align: justify;
+    font-size: larger;
+   
+    
+}
+
+/*.main ul{
+    list-style-type: circle;
+    position: relative;
+    top: 150px;
+    right: 800px;
+    
+    
+   
+
+}*/
+    
+
+footer{
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer h3{
+    padding-top:  40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    
+}
+
+.contact{
+    
+    padding-bottom: 40px;
+    padding-left: 630px;  
+    
+}
+
+.email{
+    color: rgb(243, 232, 232);
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 30px;
+}

@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+nav {
+    background-color:black;
+}
+
+.SearchBar input{
+    width: 1115px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+.SearchButton input{
+    width: 200px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+.SearchBar {
+    background-color:black;
+    
+}
+
+.links ul{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.links li{
+
+    justify-content: stretch;
+    display: inline;
+    
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: rgb(153, 150, 150);
+}
+
+header{
+    height: 300px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header h1{
+    color: rgb(235, 235, 235);
+    padding-bottom: 300px;
+}
+
+header img { 
+    
+    height: 260px;
+    width: 230px;
+    position: relative;
+    
+    right: 250px;
+   
+}
+.secondpic img{
+    height: 260px;
+    width: 230px;
+    position: relative;
+    
+    left: 250px;
+
+}
+
+.container {
+    position: static;
+  }
+  
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: white;
+}
+main{
+    height: 350px;
+}
+
+main p{
+    text-align: justify;
+    padding: 50px;
+    font-size: larger;
+}
+
+footer{
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer h3{
+    padding-top:  40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    
+}
+
+.contact{
+    
+    padding-bottom: 40px;
+    padding-left: 630px;  
+    
+}
+
+.email{
+    color: rgb(243, 232, 232);
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 30px;
+}
